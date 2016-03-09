@@ -1,0 +1,2615 @@
+  <?xml version="1.0" encoding="UTF-8" ?>
+<ProcessInvoice xmlns="http://www.openapplications.org/oagis/9"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fo="http://www.w3.org/1999/XSL/Format"
+	xmlns:cfo="http://www.emea.dell.com/GO_11i/CFO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xdoxslt="http://www.oracle.com/XSL/Transform/java/oracle.apps.xdo.template.rtf.XSLTFunctions"
+	xmlns:cmn="http://www.emea.dell.com/GO_11i/common" xmlns:xdofo="http://xmlns.oracle.com/oxp/fo/extensions"
+	releaseID="0.04.2007.02.01">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID>-1</LogicalID>
+			<ComponentID>249AU</ComponentID>
+			<TaskID>INVOICE</TaskID>
+			<ReferenceID>232641991</ReferenceID>
+			<ConfirmationCode>always</ConfirmationCode>
+		</Sender>
+		<CreationDateTime>2016-02-29</CreationDateTime>
+		<Signature />
+		<BODID>3408953</BODID>
+		<UserArea>
+			<ID>AHLSTROM_BAS_FI_UAT</ID>
+			<DocumentReference type="ID_2">
+				<DocumentID>
+					<ID>
+						<!-- tag EDI/CUST_IDENT_2 is missing from the input data -->
+					</ID>
+				</DocumentID>
+			</DocumentReference>
+			<DocumentReference type="ID_3">
+				<DocumentID>
+					+
+					<ID>
+						<!-- tag EDI/CUST_IDENT_3 is missing from the input data -->
+					</ID>
+				</DocumentID>
+			</DocumentReference>
+			<SourceID>ORDER ENTRY</SourceID>
+			<Note type="ParentChannel">CMR</Note>
+			<Note type="SubChannel">SMB</Note>
+			<Note type="SalesChannel">22380</Note>
+		</UserArea>
+	</ApplicationArea>
+	<DataArea>
+		<Process />
+		<Invoice>
+			<InvoiceHeader>
+				<!-- <AlternateDocumentID > is omitted because it had empty child <ID> -->
+				<!-- <AlternateDocumentID > is omitted because it had empty child <ID> -->
+				<!-- <AlternateDocumentID > is omitted because it had empty child <ID> -->
+				<AlternateDocumentID agencyRole="documentsequence">
+					<ID>89427</ID>
+				</AlternateDocumentID>
+				<DocumentDateTime>2016-02-24</DocumentDateTime>
+				<Note>
+					<!-- tag content is empty in the input data -->
+				</Note>
+				<Note type="Verbiage">
+					<!-- tag DOCUMENT_HEADER/FP_VERBIAGE is missing from the input data -->
+				</Note>
+				<Note type="Comments">
+					<!-- tag content is empty in the input data -->
+				</Note>
+				<Note type="SpecialInstructions">
+					<!-- tag content is empty in the input data -->
+				</Note>
+				<Note type="PERS_TYPE">
+					<!-- tag PERSONALIZATION_SUMMARY/PERS_TYPE is missing from the input 
+						data -->
+				</Note>
+				<Note type="Cust_Info_Opt">
+					<!-- tag content is empty in the input data -->
+				</Note>
+				<DocumentReference type="invoice-number">
+					<DocumentID>
+						<ID>2405031311</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="original-order">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="quote-number">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/QUOTE_NUM is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="original-invoice">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/ORIG_INVOICE_NUM is missing from the input 
+								data -->
+						</ID>
+					</DocumentID>
+					<!-- <DocumentDateTime > is omitted because it was empty -->
+				</DocumentReference>
+				<DocumentReference type="cust_ref">
+					<DocumentID>
+						<ID>uat12345</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="erec-pin">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/EREC_PIN is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="despatch">
+					<DocumentDateTime>2016-02-24</DocumentDateTime>
+					<Note>0</Note>
+				</DocumentReference>
+				<DocumentReference type="selling-date">
+					<!-- <DocumentDateTime > is omitted because it was empty -->
+				</DocumentReference>
+				<DocumentReference type="ms_license">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/MS_SELECT is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="IRN">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/IRN is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="booking-number">
+					<DocumentID>
+						<ID>400037889</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="Project">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/PROJECT_NUMBER is missing from the input 
+								data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="AgreeNum">
+					<DocumentID>
+						<ID>0</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="order-date">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="DOMS-number">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="ReferenceNum">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="asc-order-number">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="AMF-number">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="GovFolioNo">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="CertNo">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="ApprCertNo">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="InvDate">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="CertDate">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="OrigSeqRef">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="DigSign">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="ApprDigSign">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="UUID">
+					<DocumentID>
+						<ID />
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="DPSNum">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/DPS_NUM is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="CustAgreeNum">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/CUSTOMER_AGREEMENT_NUMBER is missing from 
+								the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="ContractNo">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/CONTRACT_NO is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="AuthCode">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/AUTH_CODE is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="WaybillNum">
+					<DocumentID>
+						<ID>0</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="NextBillingDate">
+					<!-- <DocumentDateTime > is omitted because it was empty -->
+				</DocumentReference>
+				<DocumentReference type="BRM-TrxNum">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="Original-BRM-TrxNum">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="DPAAuthID">
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/DPAAUTHID is missing from the input data -->
+						</ID>
+					</DocumentID>
+				</DocumentReference>
+				<DocumentReference type="BRM-BillDate">
+					<DocumentDateTime>2016-02-24</DocumentDateTime>
+				</DocumentReference>
+				<Status>
+					<Code>SC</Code>
+					<EffectiveDateTime>2016-02-24</EffectiveDateTime>
+					<Reason>
+						<!-- tag DOCUMENT/REASON_CODE is empty in the input data -->
+					</Reason>
+				</Status>
+				<ExtendedAmount currencyID="AUD">3289.98</ExtendedAmount>
+				<TotalAmount currencyID="AUD">3618.98</TotalAmount>
+				<QualifiedAmount>
+					<Description>
+						<!-- tag content is empty in the input data -->
+					</Description>
+				</QualifiedAmount>
+				<!-- begin: copying all supplier details from the local-formats file -->
+				<SupplierParty>
+					<PartyIDs>
+						<ID>
+							<!-- tag ID is missing from the input data -->
+						</ID>
+						<TaxID>46 003 855 561</TaxID>
+						<DUNSID>
+							<!-- tag DUNSID is missing from the input data -->
+						</DUNSID>
+					</PartyIDs>
+					<Name>Dell Australia Pty Limited</Name>
+					<Location>
+						<Address>
+							<LineOne>Building 3 / 14 Aquatic Drive</LineOne>
+							<LineTwo>
+								<!-- tag LineTwo missing from the input data -->
+							</LineTwo>
+							<LineThree>
+								<!-- tag LineThree missing from the input data -->
+							</LineThree>
+							<LineFour>
+								<!-- tag LineFour missing from the input data -->
+							</LineFour>
+							<LineFive>
+								<!-- tag LineFive missing from the input data -->
+							</LineFive>
+							<CityName>Frenchs Forest</CityName>
+							<CountrySubDivisionCode name="state">NSW
+							</CountrySubDivisionCode>
+							<CountrySubDivisionCode name="StateName">NEW SOUTH
+								WALES</CountrySubDivisionCode>
+							<CountrySubDivisionCode name="county">Sydney
+							</CountrySubDivisionCode>
+							<CountryCode>AU</CountryCode>
+							<PostalCode>2086</PostalCode>
+						</Address>
+					</Location>
+					<Contact>
+						<DepartmentName>Dell main contact</DepartmentName>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<CountryDialing>0061</CountryDialing>
+							<AreaDialing>2</AreaDialing>
+							<DialNumber>8972 5000</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<CountryDialing>0061</CountryDialing>
+							<AreaDialing>2</AreaDialing>
+							<DialNumber>8972 6666</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag Text missing from the input data -->
+							</Text>
+						</Communication>
+						<Communication>
+							<ChannelCode>web-site</ChannelCode>
+							<URI>www.dell.com.au</URI>
+						</Communication>
+					</Contact>
+					<SalesContact>
+						<DepartmentName>Dell Sales Dpt</DepartmentName>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<CountryDialing>
+								<!-- tag CountryDialing missing from the input data -->
+							</CountryDialing>
+							<AreaDialing>
+								<!-- tag AreaDialing missing from the input data -->
+							</AreaDialing>
+							<DialNumber>
+								<!-- tag DialNumber missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag Text missing from the input data -->
+							</Text>
+						</Communication>
+						<Communication>
+							<ChannelCode>web-site</ChannelCode>
+							<URI>
+								<!-- tag URI missing from the input data -->
+							</URI>
+						</Communication>
+					</SalesContact>
+					<ShippingContact>
+						<DepartmentName>Dell Shipping contact</DepartmentName>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<CountryDialing>
+								<!-- tag CountryDialing missing from the input data -->
+							</CountryDialing>
+							<AreaDialing>
+								<!-- tag AreaDialing missing from the input data -->
+							</AreaDialing>
+							<DialNumber>
+								<!-- tag DialNumber missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag Text missing from the input data -->
+							</Text>
+						</Communication>
+						<Communication>
+							<ChannelCode>web-site</ChannelCode>
+							<URI>
+								<!-- tag URI missing from the input data -->
+							</URI>
+						</Communication>
+					</ShippingContact>
+					<CustomerServiceContact>
+						<DepartmentName>Dell CustomerService contact</DepartmentName>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<CountryDialing>
+								<!-- tag CountryDialing missing from the input data -->
+							</CountryDialing>
+							<AreaDialing>
+								<!-- tag AreaDialing missing from the input data -->
+							</AreaDialing>
+							<DialNumber>
+								<!-- tag DialNumber missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag Text missing from the input data -->
+							</Text>
+						</Communication>
+						<Communication>
+							<ChannelCode>web-site</ChannelCode>
+							<URI>
+								<!-- tag URI missing from the input data -->
+							</URI>
+						</Communication>
+					</CustomerServiceContact>
+				</SupplierParty>
+				<!-- end: copying all supplier details from the local-formats file -->
+				<CustomerParty>
+					<PartyIDs>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/CUST_COMPANY_NUM is empty in the input data -->
+						</ID>
+						<TaxID>
+							<!-- tag DOCUMENT_HEADER/CUST_VAT is missing from the input data -->
+						</TaxID>
+					</PartyIDs>
+					<Name>AU CName 123</Name>
+					<Location>
+						<ID />
+						<Directions>
+							<!-- tag content is empty in the input data -->
+						</Directions>
+						<Address>
+							<LineOne>Test Add 1</LineOne>
+							<LineTwo>
+								<!-- tag BILL_TO_ADDRESS/ADDRESS2 is missing from the input data -->
+							</LineTwo>
+							<LineThree>
+								<!-- tag BILL_TO_ADDRESS/ADDRESS3 is missing from the input data -->
+							</LineThree>
+							<LineFour>
+								<!-- tag BILL_TO_ADDRESS/ADDRESS4 is missing from the input data -->
+							</LineFour>
+							<CitySubDivisionName>
+								<!-- tag BILL_TO_ADDRESS/BRANCH is missing from the input data -->
+							</CitySubDivisionName>
+							<CityName>Herberton</CityName>
+							<CountrySubDivisionCode name="state">VIC
+							</CountrySubDivisionCode>
+							<CountrySubDivisionCode name="StateName">VICTORIA
+							</CountrySubDivisionCode>
+							<CountryCode name="Australia">AU</CountryCode>
+							<PostalCode>4887</PostalCode>
+						</Address>
+					</Location>
+					<Contact languageCode="EN">
+						<Type>
+							<!-- tag content is empty in the input data -->
+						</Type>
+						<Name>AU LName 123</Name>
+						<DepartmentName>
+							<!-- tag BILL_TO_ADDRESS/NAME_PHONETIC is missing from the input data -->
+						</DepartmentName>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>
+								<!-- tag BILL_TO_ADDRESS/FAX_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>12345678</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>Dudi_Venkata_Raghava@dellteam.com</Text>
+						</Communication>
+						<UserArea>
+							<Note>
+								<!-- tag BILL_TO_ADDRESS/GREETING is missing from the input data -->
+							</Note>
+						</UserArea>
+					</Contact>
+					<CustomerAccountID>396808433</CustomerAccountID>
+					<RequesterContact languageCode="EN">
+						<ID>396808433</ID>
+						<Type />
+						<Name>AU CName 123</Name>
+						<DepartmentName>
+							<!-- tag LEGAL_ADDRESS/NAME_PHONETIC is missing from the input data -->
+						</DepartmentName>
+						<Communication>
+							<Address>
+								<AttentionOfName>AU LName 123</AttentionOfName>
+								<LineOne>Test Add 1</LineOne>
+								<LineTwo>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS2 is missing from the input data -->
+								</LineTwo>
+								<LineThree>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS3 is missing from the input data -->
+								</LineThree>
+								<LineFour>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS4 is missing from the input data -->
+								</LineFour>
+								<CitySubDivisionName>
+									<!-- tag LEGAL_ADDRESS/BRANCH is missing from the input data -->
+								</CitySubDivisionName>
+								<CityName>Herberton</CityName>
+								<CountrySubDivisionCode name="state">VIC
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="StateName">VICTORIA
+								</CountrySubDivisionCode>
+								<CountryCode name="Australia">AU</CountryCode>
+								<PostalCode>4887</PostalCode>
+							</Address>
+						</Communication>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>
+								<!-- tag SHIP_TO_ADDRESS/FAX_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>12345678</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>Dudi_Venkata_Raghava@dellteam.com</Text>
+						</Communication>
+						<UserArea>
+							<Note>
+								<!-- tag LEGAL_ADDRESS/GREETING is missing from the input data -->
+							</Note>
+						</UserArea>
+					</RequesterContact>
+					<PlannerContact>
+						<ID>396808433</ID>
+						<Type />
+						<Name>AU CName 123</Name>
+						<DepartmentName>
+							<!-- tag SOLD_TO_ADDRESS/NAME_PHONETIC is missing from the input data -->
+						</DepartmentName>
+						<Communication>
+							<Address>
+								<AttentionOfName>
+									<!-- tag SOLD_TO_ADDRESS/CONTACTNAME is missing from the input data -->
+								</AttentionOfName>
+								<LineOne>Test Add 1</LineOne>
+								<LineTwo>
+									<!-- tag SOLD_TO_ADDRESS/ADDRESS2 is missing from the input data -->
+								</LineTwo>
+								<LineThree>
+									<!-- tag SOLD_TO_ADDRESS/ADDRESS3 is missing from the input data -->
+								</LineThree>
+								<LineFour>
+									<!-- tag SOLD_TO_ADDRESS/ADDRESS4 is missing from the input data -->
+								</LineFour>
+								<CitySubDivisionName>
+									<!-- tag SOLD_TO_ADDRESS/BRANCH is missing from the input data -->
+								</CitySubDivisionName>
+								<CityName>Herberton</CityName>
+								<CountrySubDivisionCode name="StateName">VICTORIA
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="state">VIC
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="province">
+									<!-- tag SOLD_TO_ADDRESS/PROVINCE is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="county">
+									<!-- tag SOLD_TO_ADDRESS/COUNTY is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountryCode name="Australia">AU</CountryCode>
+								<PostalCode>4887</PostalCode>
+							</Address>
+						</Communication>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>
+								<!-- tag SOLD_TO_ADDRESS/FAX_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>
+								<!-- tag SOLD_TO_ADDRESS/PHONE_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag SOLD_TO_ADDRESS/EMAIL is missing from the input data -->
+							</Text>
+						</Communication>
+						<UserArea>
+							<Note>
+								<!-- tag SOLD_TO_ADDRESS/GREETING is missing from the input data -->
+							</Note>
+							<Note type="Verbiage" />
+							<TaxID />
+							<AccountID>
+								<!-- tag DOCUMENT_HEADER/SOLD_TO_CUST_NUM_ORIG_SYS is missing from 
+									the input data -->
+							</AccountID>
+							<DepartmentName>
+								<!-- tag SOLD_TO_ADDRESS/DEPARTMENT is missing from the input data -->
+							</DepartmentName>
+							<PaymentTerm>
+								<Description>
+									<!-- tag DOCUMENT/REL_TERM is empty in the input data -->
+								</Description>
+								<Note>Relationship Terms</Note>
+							</PaymentTerm>
+						</UserArea>
+					</PlannerContact>
+					<BuyerContact>
+						<ID>
+							<!-- tag MAIL_TO_ADDRESS/CUSTOMER_NUMBER is missing from the input 
+								data -->
+						</ID>
+						<Type />
+						<Name>
+							<!-- tag MAIL_TO_ADDRESS/CUSTOMERNAME is missing from the input data -->
+						</Name>
+						<DepartmentName>
+							<!-- tag MAIL_TO_ADDRESS/NAME_PHONETIC is missing from the input data -->
+						</DepartmentName>
+						<Communication>
+							<Address>
+								<AttentionOfName>
+									<!-- tag MAIL_TO_ADDRESS/CONTACTNAME is missing from the input data -->
+								</AttentionOfName>
+								<LineOne>
+									<!-- tag MAIL_TO_ADDRESS/ADDRESS1 is missing from the input data -->
+								</LineOne>
+								<LineTwo>
+									<!-- tag MAIL_TO_ADDRESS/ADDRESS2 is missing from the input data -->
+								</LineTwo>
+								<LineThree>
+									<!-- tag MAIL_TO_ADDRESS/ADDRESS3 is missing from the input data -->
+								</LineThree>
+								<LineFour>
+									<!-- tag MAIL_TO_ADDRESS/ADDRESS4 is missing from the input data -->
+								</LineFour>
+								<CitySubDivisionName>
+									<!-- tag MAIL_TO_ADDRESS/BRANCH is missing from the input data -->
+								</CitySubDivisionName>
+								<CityName>
+									<!-- tag MAIL_TO_ADDRESS/CITY is missing from the input data -->
+								</CityName>
+								<CountrySubDivisionCode name="StateName">
+									<!-- tag MAIL_TO_ADDRESS/STATENAME is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="state">
+									<!-- tag MAIL_TO_ADDRESS/STATE is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="province">
+									<!-- tag MAIL_TO_ADDRESS/PROVINCE is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="country">
+									<!-- tag MAIL_TO_ADDRESS/COUNTRYNAME is missing from the input data -->
+								</CountrySubDivisionCode>
+								<CountryCode>
+									<!-- tag MAIL_TO_ADDRESS/COUNTRY is missing from the input data -->
+								</CountryCode>
+								<PostalCode>
+									<!-- tag content is empty in the input data -->
+								</PostalCode>
+							</Address>
+						</Communication>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>
+								<!-- tag MAIL_TO_ADDRESS/FAX_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>
+								<!-- tag MAIL_TO_ADDRESS/PHONE_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>
+								<!-- tag MAIL_TO_ADDRESS/EMAIL is missing from the input data -->
+							</Text>
+						</Communication>
+						<UserArea>
+							<Note>
+								<!-- tag MAIL_TO_ADDRESS/GREETING is missing from the input data -->
+							</Note>
+						</UserArea>
+					</BuyerContact>
+					<ReceivingContact languageCode="EN">
+						<ID>396808433</ID>
+						<Type />
+						<Name>AU CName 123</Name>
+						<DepartmentName>
+							<!-- tag SHIP_TO_ADDRESS/NAME_PHONETIC is missing from the input data -->
+						</DepartmentName>
+						<Communication>
+							<Address>
+								<AttentionOfName>AU LName 123</AttentionOfName>
+								<LineOne>Test Add 1</LineOne>
+								<LineTwo>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS2 is missing from the input data -->
+								</LineTwo>
+								<LineThree>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS3 is missing from the input data -->
+								</LineThree>
+								<LineFour>
+									<!-- tag SHIP_TO_ADDRESS/ADDRESS4 is missing from the input data -->
+								</LineFour>
+								<CitySubDivisionName>
+									<!-- tag SHIP_TO_ADDRESS/BRANCH is missing from the input data -->
+								</CitySubDivisionName>
+								<CityName>Herberton</CityName>
+								<CountrySubDivisionCode name="state">VIC
+								</CountrySubDivisionCode>
+								<CountrySubDivisionCode name="StateName">VICTORIA
+								</CountrySubDivisionCode>
+								<CountryCode name="Australia">AU</CountryCode>
+								<PostalCode>4887</PostalCode>
+							</Address>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>12345678</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>
+								<!-- tag SHIP_TO_ADDRESS/FAX_NUMBER is missing from the input data -->
+							</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>Dudi_Venkata_Raghava@dellteam.com</Text>
+						</Communication>
+						<UserArea>
+							<Note>
+								<!-- tag SHIP_TO_ADDRESS/GREETING is missing from the input data -->
+							</Note>
+							<TaxID>
+								<!-- tag DOCUMENT_HEADER/SHIP_CUST_VAT is missing from the input 
+									data -->
+							</TaxID>
+							<DepartmentName>
+								<!-- tag SHIP_TO_ADDRESS/DEPARTMENT is missing from the input data -->
+							</DepartmentName>
+						</UserArea>
+					</ReceivingContact>
+					<UserArea>
+						<DepartmentName>
+							<!-- tag BILL_TO_ADDRESS/DEPARTMENT is missing from the input data -->
+						</DepartmentName>
+						<AccountID>51033648</AccountID>
+					</UserArea>
+				</CustomerParty>
+				<!-- begin: copying all remit to party details from the local-formats 
+					file -->
+				<RemitToParty>
+					<PartyIDs>
+						<ID>106685061</ID>
+						<DODAACID>
+							<!-- tag DODAACID missing from the input data -->
+						</DODAACID>
+						<BICID>
+							<!-- tag Name BICID from the input data -->
+						</BICID>
+					</PartyIDs>
+					<Name>Citibank Limited, Australia</Name>
+					<Location>
+						<Name>
+							<!-- tag Name missing from the input data -->
+						</Name>
+						<Address>
+							<LineOne>Building 3 / 14 Aquatic Drive</LineOne>
+							<LineTwo>
+								<!-- tag LineTwo missing from the input data -->
+							</LineTwo>
+							<LineThree>
+								<!-- tag LineThree missing from the input data -->
+							</LineThree>
+							<LineFour>
+								<!-- tag LineFour missing from the input data -->
+							</LineFour>
+							<LineFive>
+								<!-- tag LineFive missing from the input data -->
+							</LineFive>
+							<CityName>Frenchs Forest</CityName>
+							<CountrySubDivisionCode name="state">NSW
+							</CountrySubDivisionCode>
+							<CountrySubDivisionCode name="StateName">NEW SOUTH
+								WALES</CountrySubDivisionCode>
+							<CountrySubDivisionCode name="county">Sydney
+							</CountrySubDivisionCode>
+							<CountryCode>AU</CountryCode>
+							<PostalCode>2086</PostalCode>
+						</Address>
+						<Description>
+							<!-- tag Lega missing from the input data -->
+						</Description>
+					</Location>
+					<UserArea>
+						<Legal xsi:type="xs:string">
+							<!-- tag Lega missing from the input data -->
+						</Legal>
+					</UserArea>
+				</RemitToParty>
+				<!-- end: copying all remit to party details from the local-formats file -->
+				<ShipFromParty>
+					<Location>
+						<Description>
+							<!-- tag DOCUMENT_HEADER/MFG_COUNTRY is missing from the input data -->
+						</Description>
+					</Location>
+				</ShipFromParty>
+				<Party>
+					<Contact>
+						<Name>SITTESTUSER22</Name>
+						<Communication>
+							<ChannelCode>fax</ChannelCode>
+							<DialNumber>12121212121</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>phone</ChannelCode>
+							<DialNumber>23232323232</DialNumber>
+						</Communication>
+						<Communication>
+							<ChannelCode>e-mail</ChannelCode>
+							<Text>go_cfo_test@dell.com</Text>
+						</Communication>
+					</Contact>
+					<Contact type="POC">
+						<Name>
+							<!-- tag DOCUMENT_HEADER/DELL_POC is missing from the input data -->
+						</Name>
+					</Contact>
+				</Party>
+				<PurchaseOrderReference>
+					<DocumentID>
+						<ID>uat12345</ID>
+					</DocumentID>
+					<AlternateDocumentID>
+						<ID>
+							<!-- tag EDI/ACCT_NB is empty in the input data -->
+						</ID>
+					</AlternateDocumentID>
+					<!-- <DocumentDateTime > is omitted because it was empty -->
+					<UserArea>
+						<CurrencyExchangeRate type="CE">
+							<SourceCurrencyCode>AUD</SourceCurrencyCode>
+							<TargetCurrencyCode>---</TargetCurrencyCode>
+							<RateNumeric>1</RateNumeric>
+						</CurrencyExchangeRate>
+						<!-- <CurrencyExchangeRate > is omitted because it had empty child 
+							<RateNumeric> -->
+						<CurrencyExchangeRate type="ShipTo">
+							<!-- <RateNumeric > is omitted because it was empty -->
+						</CurrencyExchangeRate>
+						<CurrencyExchangeRate>
+							<SourceCurrencyCode />
+						</CurrencyExchangeRate>
+						<CurrencyExchangeRate>
+							<SourceCurrencyCode>AUD</SourceCurrencyCode>
+						</CurrencyExchangeRate>
+						<!-- <Amount > is omitted because it was empty -->
+					</UserArea>
+				</PurchaseOrderReference>
+				<ContractReference>
+					<Note type="Collector">DELL Collector</Note>
+					<Note type="Collector Email">EMEA_Default_Collector@dell.com</Note>
+					<Note type="Collector Phone">See Website</Note>
+				</ContractReference>
+				<ContractReference>
+					<DocumentID>
+						<ID>
+							<!-- tag DOCUMENT_HEADER/CONTRACT_NUMBER is missing from the input 
+								data -->
+						</ID>
+					</DocumentID>
+				</ContractReference>
+				<PaymentTerm>
+					<Term type="Y">
+						<ID>0</ID>
+						<Description>Prepaid</Description>
+						<DueDateTime>2016-02-24</DueDateTime>
+						<Amount currencyID="AUD">3618.98</Amount>
+					</Term>
+				</PaymentTerm>
+				<Payment>
+					<ElectronicFundsTransfer>
+						<Type>
+							<!-- tag DOCUMENT/PAYMENT_TYPE_DESCRIPTION is empty in the input data -->
+						</Type>
+						<Number />
+					</ElectronicFundsTransfer>
+				</Payment>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">3289.98</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<UserArea>
+							<Code>AUGST_O2C_O_8</Code>
+						</UserArea>
+					</Calculation>
+					<Exemption>
+						<Description>
+							<!-- tag DOCUMENT_HEADER/CUST_VAT_EXEMPT_NO is missing from the input 
+								data -->
+						</Description>
+					</Exemption>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">329</Amount>
+				</Tax>
+				<!-- <Charge > is omitted because it had empty child <Amount> -->
+				<Charge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>surcharge</ReasonCode>
+				</Charge>
+				<Charge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>eco-tax</ReasonCode>
+				</Charge>
+				<Charge>
+					<Amount currencyID="AUD">329</Amount>
+					<ReasonCode>TAX_TOTAL</ReasonCode>
+				</Charge>
+				<Charge>
+					<Amount currencyID="AUD">3289.98</Amount>
+					<ReasonCode>Warranty</ReasonCode>
+				</Charge>
+				<TransportationMethodCode>APC</TransportationMethodCode>
+				<TransportationTerm>
+					<Description>
+						<!-- tag DOCUMENT_HEADER/CARRIER_NAME is missing from the input data -->
+					</Description>
+				</TransportationTerm>
+				<UserArea>
+					<!-- <Charge > is omitted because it had empty child <Amount> -->
+					<!-- <Charge > is omitted because it had empty child <Amount> -->
+					<!-- <Charge > is omitted because it had empty child <Amount> -->
+					<!-- <Charge > is omitted because it had empty child <Amount> -->
+					<!-- <Tax > is omitted because it had empty child <Amount> -->
+					<!-- <ExtendedAmount > is omitted because it was empty -->
+					<!-- <TotalAmount > is omitted because it was empty -->
+					<Reason>
+						<!-- tag content is empty in the input data -->
+					</Reason>
+				</UserArea>
+			</InvoiceHeader>
+			<InvoiceLine>
+				<LineNumber>1</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFM</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport and 2hr Mission Critical - Powered by
+						Copilot - 6 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AU12345</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">512.4</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">512.4</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">512.4</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">51.23</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">512.4</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">512.4</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFM</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport and 2hr Mission Critical - Powered by
+							Copilot - 6 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">512.4</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>2</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFM</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport and 2hr Mission Critical - Powered by
+						Copilot - 6 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AU678456</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">512.4</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">512.4</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">512.4</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">51.24</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">512.4</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">512.4</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFM</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport and 2hr Mission Critical - Powered by
+							Copilot - 6 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">512.4</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>3</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFM</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport and 2hr Mission Critical - Powered by
+						Copilot - 6 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS5677</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">512.4</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">512.4</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">512.4</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">51.24</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">512.4</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">512.4</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFM</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport and 2hr Mission Critical - Powered by
+							Copilot - 6 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">512.4</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>4</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFM</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport and 2hr Mission Critical - Powered by
+						Copilot - 6 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS6788</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">512.4</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">512.4</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">512.4</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">51.24</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">512.4</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">512.4</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFM</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport and 2hr Mission Critical - Powered by
+							Copilot - 6 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">512.4</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>5</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFM</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport and 2hr Mission Critical - Powered by
+						Copilot - 6 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS67543</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">512.4</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">512.4</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">512.4</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">51.24</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">512.4</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">512.4</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFM</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport and 2hr Mission Critical - Powered by
+							Copilot - 6 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">512.4</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">512.4</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>6</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFQ</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport Plus Next Business Day Onsite - Powered by
+						Copilot - 3 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS1234</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">242.66</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">242.66</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">242.66</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">24.27</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">242.66</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">242.66</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFQ</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport Plus Next Business Day Onsite - Powered by
+							Copilot - 3 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">242.66</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>7</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFQ</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport Plus Next Business Day Onsite - Powered by
+						Copilot - 3 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS1234</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">242.66</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">242.66</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">242.66</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">24.27</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">242.66</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">242.66</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFQ</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport Plus Next Business Day Onsite - Powered by
+							Copilot - 3 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">242.66</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+			<InvoiceLine>
+				<LineNumber>8</LineNumber>
+				<DocumentReference type="bld-order-number">
+					<DocumentID>
+						<ID>870608801</ID>
+					</DocumentID>
+				</DocumentReference>
+				<Item>
+					<ItemID>
+						<ID>732-BBFQ</ID>
+					</ItemID>
+					<SupplierItemID>
+						<ID>
+							<!-- tag content is empty in the input data -->
+						</ID>
+					</SupplierItemID>
+					<Description>ProSupport Plus Next Business Day Onsite - Powered by
+						Copilot - 3 Month(s)</Description>
+					<Classification>
+						<Codes>
+							<Code sequence="1">W</Code>
+						</Codes>
+					</Classification>
+					<Specification>
+						<Property>
+							<NameValue name="warranty-tag-number">AUS1234</NameValue>
+							<EffectiveTimePeriod>
+								<StartDateTime>2016-02-24</StartDateTime>
+								<!-- <EndDateTime > is omitted because it was empty -->
+							</EffectiveTimePeriod>
+						</Property>
+						<Property>
+							<NameValue name="original-order">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+						<Property>
+							<NameValue name="tag-number">
+								<!-- tag content is empty in the input data -->
+							</NameValue>
+						</Property>
+					</Specification>
+					<UserArea>
+						<Note />
+					</UserArea>
+				</Item>
+				<Quantity>1</Quantity>
+				<UnitPrice>
+					<Amount currencyID="AUD">242.66</Amount>
+					<PerQuantity>1</PerQuantity>
+					<Description type="type">242.66</Description>
+				</UnitPrice>
+				<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+				<Tax>
+					<TaxJurisdicationCodes>
+						<Code>GST</Code>
+					</TaxJurisdicationCodes>
+					<BasisAmount currencyID="AUD">242.66</BasisAmount>
+					<Calculation>
+						<RateNumeric>10.00</RateNumeric>
+						<Description>SR</Description>
+						<Description type="TaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxablePercentage">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<Description type="NonTaxableAmount">
+							<!-- tag content is empty in the input data -->
+						</Description>
+						<UserArea>
+							<Code>Australia</Code>
+						</UserArea>
+					</Calculation>
+					<Description>GST</Description>
+					<Amount currencyID="AUD">24.27</Amount>
+					<UserArea>
+						<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+						<UnitPrice>
+							<Amount currencyID="AUD">242.66</Amount>
+							<PerQuantity>1</PerQuantity>
+						</UnitPrice>
+					</UserArea>
+				</Tax>
+				<InvoiceCharge>
+					<Amount currencyID="AUD">0</Amount>
+					<ReasonCode>freight</ReasonCode>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>VAT</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>0</RateNumeric>
+						</Calculation>
+						<!-- <Description > is omitted because it was empty -->
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+				</InvoiceCharge>
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<!-- <InvoiceCharge > is omitted because it had empty child <Amount> -->
+				<InvoiceCharge>
+					<UserArea>
+						<TotalAmount currencyID="AUD">242.66</TotalAmount>
+					</UserArea>
+				</InvoiceCharge>
+				<InvoiceSubLine>
+					<LineNumber>1</LineNumber>
+					<DocumentReference type="BP-SubscriptionID">
+						<DocumentID>
+							<ID>0</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="RenewalDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="Original-Order">
+						<DocumentID>
+							<ID>870608801</ID>
+						</DocumentID>
+					</DocumentReference>
+					<DocumentReference type="CycleStartDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="CycleEndDate">
+						<!-- <DocumentDateTime > is omitted because it was empty -->
+					</DocumentReference>
+					<DocumentReference type="EntitlementID">
+						<DocumentID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</DocumentID>
+					</DocumentReference>
+					<Item>
+						<ItemID>
+							<ID>732-BBFQ</ID>
+						</ItemID>
+						<SupplierItemID>
+							<ID>
+								<!-- tag content is empty in the input data -->
+							</ID>
+						</SupplierItemID>
+						<Description>ProSupport Plus Next Business Day Onsite - Powered by
+							Copilot - 3 Month(s)</Description>
+						<Classification>
+							<Codes>
+								<Code sequence="1">W</Code>
+							</Codes>
+						</Classification>
+						<Specification>
+							<Property>
+								<NameValue name="UnitOfMeasure">EA</NameValue>
+							</Property>
+						</Specification>
+					</Item>
+					<Quantity>1</Quantity>
+					<UnitPrice>
+						<Amount currencyID="AUD">242.66</Amount>
+						<PerQuantity>1</PerQuantity>
+					</UnitPrice>
+					<ContractReference>
+						<Description>RemContractAmount</Description>
+						<UserArea>
+							<!-- <Amount > is omitted because it was empty -->
+						</UserArea>
+					</ContractReference>
+					<ExtendedAmount currencyID="AUD">242.66</ExtendedAmount>
+					<Tax>
+						<TaxJurisdicationCodes>
+							<Code>GST</Code>
+						</TaxJurisdicationCodes>
+						<BasisAmount currencyID="AUD">0</BasisAmount>
+						<Calculation>
+							<RateNumeric>10.00</RateNumeric>
+							<Description>SR</Description>
+							<UserArea>
+								<Code>Australia</Code>
+							</UserArea>
+						</Calculation>
+						<Description>GST</Description>
+						<Amount currencyID="AUD">0</Amount>
+					</Tax>
+					<UserArea>
+						<Charge />
+						<Note type="AddComments">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Billing Cycle">
+							<!-- tag content is empty in the input data -->
+						</Note>
+						<Note type="Cust_Info_Opt">
+							<!-- tag content is empty in the input data -->
+						</Note>
+					</UserArea>
+				</InvoiceSubLine>
+				<UserArea>
+					<ShipToParty>
+						<Location>
+							<ID>870608801</ID>
+						</Location>
+					</ShipToParty>
+				</UserArea>
+			</InvoiceLine>
+		</Invoice>
+	</DataArea>
+</ProcessInvoice>

@@ -1,0 +1,32 @@
+1441629211045	Move folder
+1441629222820	Move folder
+1441629235712	Move folder
+1441629250431	Move folder
+1441629257296	Move folder
+1441629335068	Move file
+1441629344559	Move file
+1441629355044	Move file
+1441629358595	Move file
+1441629361029	Move file
+1441629364442	Move file
+1441629370971	Move file
+1441629417494	Rename package 'src.dell.apps.barcoder.imgbarcoder'
+1441629432920	Rename package 'src.dell.apps.capture'
+1441629456632	Rename package 'src.dell.apps.cfo'
+1441629471948	Rename package 'src.dell.apps.cfo.acknowledge'
+1441629483266	Rename package 'src.dell.apps.cfo.config'
+1441629491371	Rename package 'src.dell.apps.cfo.dataengine'
+1441629502691	Rename package 'src.dell.apps.cfo.delivery'
+1441631090094	Rename package 'src.dell.apps.cfo.document'
+1441631102758	Rename package 'src.dell.apps.cfo.format'
+1441631112646	Rename package 'src.dell.apps.cfo.report'
+1441631120245	Rename package 'src.dell.apps.cfo.sign'
+1441631129086	Rename package 'src.dell.apps.cfo.transfer'
+1441631140151	Rename package 'src.dell.apps.cfo.utils'
+1441631150350	Rename package 'src.dell.apps.common'
+1441631160863	Rename package 'src.dell.apps.delivery'
+1441631171082	Rename package 'src.dell.apps.jms'
+1441631180025	Rename package 'src.dell.apps.logger'
+1441631190934	Rename package 'src.dell.apps.phraser'
+1441631203419	Rename package 'src.dell.apps.xml'
+1441631218425	Rename package 'src.dell.apps.xslfo'
